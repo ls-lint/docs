@@ -50,7 +50,7 @@ module.exports = {
     [
       'link',
       {
-        href: '//wpcc.io/lib/1.x.2/cookieconsent.min.css',
+        href: 'https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css',
         rel: 'stylesheet',
         type: 'text/css',
       },
@@ -58,7 +58,7 @@ module.exports = {
     [
       'script',
       {
-        src: '//wpcc.io/lib/1.x.2/cookieconsent.min.js',
+        src: 'https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js',
       },
     ],
     [
