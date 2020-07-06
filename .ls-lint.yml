@@ -1,0 +1,9 @@
+ls:
+  .vue: PascalCase
+  .js: kebab-case
+  .md: kebab-case
+
+ignore:
+  - .git
+  - node_modules
+  - README.md
