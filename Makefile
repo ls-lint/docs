@@ -1,4 +1,4 @@
-HOST_LOEFFEL="ssh://root@161.35.203.137"
+HOST="ssh://root@46.101.193.226"
 
 install:
 	yarn install
