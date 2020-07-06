@@ -1,0 +1,2 @@
+# docs
+ls-lint docs
