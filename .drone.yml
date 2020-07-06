@@ -1,0 +1,47 @@
+kind: pipeline
+type: docker
+name: docker
+
+steps:
+  - name: ls-lint
+    image: node:14
+    commands:
+      - make ls-lint
+
+  - name: install
+    image: node:14
+    commands:
+      - make install
+
+  - name: build
+    image: node:14
+    commands:
+      - make build
+
+  - name: docker
+    image: plugins/docker
+    settings:
+      username: loeffel
+      password:
+        from_secret: REGISTRY_PASSWORD
+      repo: registry.loeffel.io/ls-lint/docs
+      registry: registry.loeffel.io
+    when:
+      branch: master
+      event: push
+
+  - name: deployment
+    image: alpine
+    environment:
+      SSH_KEY:
+        from_secret: SSH_KEY
+      REGISTRY_PASSWORD:
+        from_secret: REGISTRY_PASSWORD
+    commands:
+      - apk add make openssh docker docker-compose
+      - mkdir /root/.ssh && echo "$SSH_KEY" > /root/.ssh/id_rsa && chmod 0600 /root/.ssh/id_rsa
+      - docker login https://registry.loeffel.io -u loeffel -p "$REGISTRY_PASSWORD"
+      - make docker-deploy
+    when:
+      branch: master
+      event: push
