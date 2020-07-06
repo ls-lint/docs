@@ -82,7 +82,7 @@ module.exports = {
       },
       {
         text: 'Legal',
-        link: 'https://ls-lint.org/docs/1.0/legal/imprint.html',
+        link: 'https://ls-lint.org/1.x/legal/imprint.html',
       },
     ],
 
@@ -93,6 +93,14 @@ module.exports = {
           collapsable: false,
           children: prefix('getting-started', [
             'introduction',
+          ]),
+        },
+        {
+          title: 'Legal',
+          collapsable: false,
+          children: prefix('legal', [
+            'imprint',
+            'privacy',
           ]),
         },
       ],
