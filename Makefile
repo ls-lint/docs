@@ -4,7 +4,7 @@ install:
 	yarn install
 
 ls-lint:
-	npx @ls-lint/ls-lint@1.9.0
+	node_modules/.bin/ls-lint
 
 build:
 	yarn docs:build
