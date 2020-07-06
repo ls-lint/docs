@@ -7,7 +7,7 @@
 
         <p>
             <a href="https://github.com/loeffel-io/ls-lint"><img alt="GitHub stars" src="https://img.shields.io/github/stars/loeffel-io/ls-lint?label=github%20stars"></a>
-            <a href="http://ci.loeffel.io/loeffel-io/ls-lint"><img src="http://ci.loeffel.io/api/badges/loeffel-io/ls-lint/status.svg" alt="build"></a>
+            <a href="https://ci.loeffel.io/loeffel-io/ls-lint"><img src="http://ci.loeffel.io/api/badges/loeffel-io/ls-lint/status.svg" alt="build"></a>
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/v/@ls-lint/ls-lint.svg?sanitize=true" alt="Version"></a>
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/dm/@ls-lint/ls-lint?label=npm%20downloads" alt="NPM Downloads"></a>
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/l/@ls-lint/ls-lint.svg?sanitize=true" alt="License"></a>
