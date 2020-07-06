@@ -3,15 +3,15 @@ type: docker
 name: docker
 
 steps:
-  - name: ls-lint
-    image: node:14
-    commands:
-      - make ls-lint
-
   - name: install
     image: node:14
     commands:
       - make install
+
+  - name: ls-lint
+    image: node:14
+    commands:
+      - make ls-lint
 
   - name: build
     image: node:14
