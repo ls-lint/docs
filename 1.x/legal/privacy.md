@@ -14,7 +14,7 @@ twys Software GmbH
 Schreinerstraße 31  
 10247 Berlin  
 
-**Vertretungsberechtigte Personen:** Patrick Bauer, Alexander Schneider und Lucas Löffel
+**Vertretungsberechtigte Personen:** Alexander Schneider und Lucas Löffel
 
 **E-Mail-Adresse:** info@twys.io
 

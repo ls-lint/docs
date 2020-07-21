@@ -5,8 +5,9 @@
   "repository": "https://github.com/ls-lint/docs",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.5.0",
-    "@ls-lint/ls-lint": "^1.9.0"
+    "@ls-lint/ls-lint": "^1.9.0",
+    "termynal": "ines/termynal#master",
+    "vuepress": "^1.5.0"
   },
   "scripts": {
     "docs:build": "vuepress build",

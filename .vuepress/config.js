@@ -5,14 +5,12 @@ module.exports = {
 
   head: [
     [
-      [
-        'link',
-        {
-          rel: 'icon',
-          href: '/favicon.ico',
-          type: 'image/x-icon',
-        },
-      ],
+      'link',
+      {
+        rel: 'icon',
+        href: '/favicon.ico',
+        type: 'image/x-icon',
+      },
     ],
     [
       'link',
@@ -22,20 +20,6 @@ module.exports = {
         type: 'text/css',
       },
     ],
-    // [
-    //   'script',
-    //   {},
-    //   `
-    //     (function(h,o,t,j,a,r){
-    //       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-    //       h._hjSettings={hjid:1665266,hjsv:6};
-    //       a=o.getElementsByTagName('head')[0];
-    //       r=o.createElement('script');r.async=1;
-    //       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-    //       a.appendChild(r);
-    //     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    //   `,
-    // ],
     [
       'script',
       {},
@@ -71,6 +55,7 @@ module.exports = {
   ],
 
   themeConfig: {
+    version: '1.9.0', // unused for now
     logo: 'https://raw.githubusercontent.com/loeffel-io/ls-lint/master/ls-lint.png',
     displayAllHeaders: false,
     sidebarDepth: 1,
@@ -89,10 +74,26 @@ module.exports = {
     sidebar: {
       '/': [
         {
+          title: 'Prologue',
+          collapsable: false,
+          children: prefix('prologue', [
+            'changelog',
+          ]),
+        },
+        {
           title: 'Getting Started',
           collapsable: false,
           children: prefix('getting-started', [
             'introduction',
+            'installation',
+          ]),
+        },
+        {
+          title: 'Configuration',
+          collapsable: false,
+          children: prefix('configuration', [
+            'the-basics',
+            'rules',
           ]),
         },
         {

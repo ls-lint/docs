@@ -9,7 +9,7 @@ Schreinerstraße 31
 10247 Berlin  
 Germany  
 
-**Geschäftsführer:** Patrick Bauer, Alexander Schneider und Lucas Löffel
+**Geschäftsführer:** Alexander Schneider und Lucas Löffel
 (Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV)
 
 ## Kontakt

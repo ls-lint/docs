@@ -2,6 +2,7 @@ ls:
   .vue: PascalCase
   .js: kebab-case
   .md: kebab-case
+  .styl: kebab-case
 
 ignore:
   - .git

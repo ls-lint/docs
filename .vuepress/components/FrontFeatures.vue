@@ -2,7 +2,7 @@
     <div id="front-features">
         <div>
             <h3 style="padding-bottom:10px; border-bottom: 2px solid rgba(0,0,0,0.05);">Simplicity First</h3>
-            Minimal setup with simple rules managed in one single ls-lint.yml file
+            Minimal setup with simple rules managed in one single .ls-lint.yml file
         </div>
 
         <div>

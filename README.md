@@ -20,5 +20,5 @@ ls:
 ```
 
 <p align="center" id="footer">
-    MIT Licensed | Copyright &copy; 2020 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a>
+    MIT Licensed | Copyright &copy; 2020 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.behance.net/AnastasiaMarx">Anastasia Marx</a>
 </p>
