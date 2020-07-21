@@ -14,7 +14,7 @@
         </p>
 
         <p>
-            Trusted by <a href="https://github.com/vuejs/vue-next">Vue.js 3</a>, <a href="https://github.com/nuxt/nuxt.js/blob/dev/.ls-lint.yml">Nuxt.js</a> and <a href="https://github.com/youzan/vant/blob/dev/.ls-lint.yml">Vant</a> and many more
+            Trusted by <a href="https://github.com/vuejs/vue-next/blob/master/.ls-lint.yml">Vue.js 3</a>, <a href="https://github.com/nuxt/nuxt.js/blob/dev/.ls-lint.yml">Nuxt.js</a> and <a href="https://github.com/youzan/vant/blob/dev/.ls-lint.yml">Vant</a> and many more
         </p>
 
         <p id="get-started">
