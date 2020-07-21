@@ -1,7 +1,7 @@
 <FrontHeader/>
 <FrontFeatures/>
 
-<h3 style="margin-top:0; padding-bottom:10px; border-bottom: 2px solid rgba(0,0,0,0.05);">Bring some structure to your file and directory names</h3>
+<h3 style="margin-top:50px; padding-top:0; padding-bottom:10px; border-bottom: 2px solid rgba(0,0,0,0.05);">Bring some structure to your project directories</h3>
 
 Manage all your file and directory names in one single `.ls-lint.yml` file
 

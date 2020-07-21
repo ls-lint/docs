@@ -1,7 +1,7 @@
 <template>
     <div id="termynal-demo" data-termynal>
-        <span data-ty="input">ls-lint</span>
-        <span data-ty>src/test/Test.js failed for rules: snakecase<br>src/test/YouTube.js failed for rules: snakecase</span>
+        <span data-ty="input" data-ty-delay="0">ls-lint</span>
+        <span data-ty data-ty-delay="3000">src/test/Test.js failed for rules: snakecase<br>src/test/YouTube.js failed for rules: snakecase</span>
     </div>
 </template>
 
