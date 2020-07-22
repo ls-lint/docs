@@ -78,6 +78,7 @@ module.exports = {
           collapsable: false,
           children: prefix('prologue', [
             'changelog',
+            'contributions',
           ]),
         },
         {
