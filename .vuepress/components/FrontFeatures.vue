@@ -12,7 +12,7 @@
 
         <div>
             <h3 style="padding-bottom:10px; border-bottom: 2px solid rgba(0,0,0,0.05);">Extremely fast</h3>
-            Lint thousands of files and directories in milliseconds
+            Lints thousands of files and directories in milliseconds
         </div>
     </div>
 </template>

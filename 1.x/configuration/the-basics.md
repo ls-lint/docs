@@ -18,11 +18,11 @@ ignore:
     ...
 ```
 
-`ls` holds the structure of your project directories with all their rules for your extensions, sub-extensions and directories while `ignore` can ignore some of these files and directories completely
+`ls` defines the structure of your project directories with all their rules for your extensions, sub-extensions and directories while `ignore` can ignore some of these files and directories completely
 
 ## Extensions & sub-extensions
 
-You might ask yourself what the hell are sub-extensions. ls-lint describes file extensions like `.js` or `.html` as extensions while `.d.ts`, `.umd.js` or `.local.build.js` file extensions are described as sub-extensions.
+You might ask yourself - what the hell are sub-extensions? ls-lint describes file extensions like `.js` or `.html` as extensions while `.d.ts`, `.umd.js` or `.local.build.js` file extensions are described as sub-extensions.
 
 ## Global configuration
 
