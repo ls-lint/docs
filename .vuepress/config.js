@@ -5,6 +5,41 @@ module.exports = {
 
   head: [
     [
+      'meta',
+      {
+        property: 'og:title',
+        content: 'ls-lint',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content: 'An extremely fast file and directory name linter - Bring some structure to your project directories',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:url',
+        content: 'https://ls-lint.org',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:image',
+        content: '/open-graph-img.png',
+      },
+    ],
+    [
       'link',
       {
         rel: 'icon',
