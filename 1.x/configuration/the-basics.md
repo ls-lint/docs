@@ -46,8 +46,19 @@ ignore:
 Pretty easy, isn`t it? 
 
 :::tip Rules Rules Rules
-Don`t worry, there are many more rules to use: [All rules](/1.x/configuration/rules.md)
+Don`t worry, there are many more rules to use: [All rules](/1.x/configuration/the-rules.md)
 :::
+
+## Linting directory names
+
+You also can define rules for directories by the `.dir` definition
+
+```yaml
+ls:
+    packages/src:
+        .dir: kebab-case # applies for the current directory and all their subdirectories
+        .js: kebab-case
+```
 
 ## Using multiple rules
 

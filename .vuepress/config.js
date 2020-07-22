@@ -93,7 +93,7 @@ module.exports = {
           collapsable: false,
           children: prefix('configuration', [
             'the-basics',
-            'rules',
+            'the-rules',
           ]),
         },
         {
