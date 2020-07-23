@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'ls-lint',
+  title: 'ls-lint - file and directory name linter',
   description: 'An extremely fast file and directory name linter - Bring some structure to your project directories',
   base: '/',
 
