@@ -11,6 +11,7 @@ Feel free to create a GitHub issue for any bug report, feature request or feedba
 
 ## Contributors
 
-Thank you for your contribution!
+Thank you for your contributions!
 
 - [Pavel Pustovalov](https://github.com/pustovalov)
+- [Barnett Klane](https://github.com/barnett)
