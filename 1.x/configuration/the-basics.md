@@ -89,7 +89,7 @@ ls:
         .js: PascalCase
 
     src/templates:
-        .js: snake-case
+        .js: snake_case
 ```
 
 :::warning Keep in mind
