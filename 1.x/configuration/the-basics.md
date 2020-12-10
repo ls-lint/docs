@@ -98,6 +98,8 @@ Directory configurations like `models` or `src/templates` will override **all** 
 
 ## Using directory patterns
 
+Directory patterns are available for `ls` configurations but not yet for `ignore` configurations.
+
 ### The glob pattern
 
 The glob pattern `*` or `**` can be used for all of your **ls** directory configurations:
