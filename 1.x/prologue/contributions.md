@@ -15,3 +15,4 @@ Thank you for your contributions!
 
 - [Pavel Pustovalov](https://github.com/pustovalov)
 - [Barnett Klane](https://github.com/barnett)
+- [Rhys Arkins](https://github.com/rarkins)
