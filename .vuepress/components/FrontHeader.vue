@@ -13,10 +13,6 @@
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/l/@ls-lint/ls-lint.svg?sanitize=true" alt="License"></a>
         </p>
 
-        <p>
-            Trusted by <a href="https://github.com/vuejs/vue-next/blob/master/.ls-lint.yml">Vue.js 3</a>, <a href="https://github.com/nuxt/nuxt.js/blob/dev/.ls-lint.yml">Nuxt.js</a> and <a href="https://github.com/youzan/vant/blob/dev/.ls-lint.yml">Vant</a> and many more
-        </p>
-
         <p id="get-started">
             <a id="get-started-button" href="/1.x/getting-started/introduction.html">Get Started &rarr;</a>
         </p>
