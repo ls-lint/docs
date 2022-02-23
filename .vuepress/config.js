@@ -143,6 +143,7 @@ module.exports = {
           children: prefix('configuration', [
             'the-basics',
             'the-rules',
+            'the-options',
           ]),
         },
         {
