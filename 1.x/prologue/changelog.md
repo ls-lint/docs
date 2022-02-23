@@ -2,6 +2,21 @@
 
 [[toc]]
 
+## v1.11.0
+
+Release Day: 23 Feb 2022
+
+- Added `warn` and `debug` options
+- Updated all dependencies
+- Massive performance improvements
+- Added `SCREAMING_SNAKE_CASE` rule
+
+## v1.10.0
+
+Release Day: 26 Jul 2021
+
+- Added ARM support
+
 ## v1.9.0
 
 Release Day: 02 Jul 2020
@@ -24,7 +39,7 @@ Release Day: 17 Mar 2020
 
 Release Day: 17 Mar 2020
 
-:::warning Breaking changes
+:::warning Breaking changes 
 This version could break your current `.ls-lint.yml` configuration
 :::
 

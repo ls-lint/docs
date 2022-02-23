@@ -4,10 +4,10 @@
 
 ## Verantwortlicher i.S.d. § 5 Abs. 1 TMG
 
-twys Software GmbH  
-Schreinerstraße 31  
-10247 Berlin  
-Germany  
+twys Software GmbH   
+Käthe-Niederkirchner-Str. 30  
+10407 Berlin    
+Germany   
 
 **Geschäftsführer:** Alexander Schneider und Lucas Löffel
 (Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV)

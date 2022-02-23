@@ -6,7 +6,7 @@
 Manage all your file and directory names in one single `.ls-lint.yml` file
 
 <div style="color:#A2A2A2; font-size:12px;">
-    Example of the official <a href="https://github.com/vuejs/vue-next/blob/master/.ls-lint.yml" target="_blank">Vue.js 3</a> configuration
+    Example of the Vue.js 3 configuration
 </div>
 
 ```yaml
@@ -17,8 +17,11 @@ ls:
     .d.ts: camelCase
     .spec.ts: camelCase | PascalCase
     .mock.ts: camelCase
+
+  ignore:
+    - node_modules
 ```
 
 <p align="center" id="footer">
-    MIT Licensed | Copyright &copy; 2020 - 2021 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.behance.net/AnastasiaMarx">Anastasia Marx</a>
+    MIT Licensed | Copyright &copy; 2020 - 2022 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.behance.net/AnastasiaMarx">Anastasia Marx</a>
 </p>
