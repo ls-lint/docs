@@ -52,5 +52,5 @@ npx @ls-lint/ls-lint
 Based on [Google Distroless](https://github.com/GoogleContainerTools/distroless)
 
 ```bash
-docker run -t -v /path/to/project:/data lslintorg/ls-lint:v1.11.0
+docker run -t -v /path/to/project:/data lslintorg/ls-lint:1.11.0
 ```
