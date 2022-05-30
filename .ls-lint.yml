@@ -9,3 +9,4 @@ ignore:
   - .git
   - node_modules
   - README.md
+  - termynal-master/README.md
