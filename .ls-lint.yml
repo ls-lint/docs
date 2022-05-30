@@ -3,6 +3,7 @@ ls:
   .js: kebab-case
   .md: kebab-case
   .styl: kebab-case
+  .min.js: kebab-case
 
 ignore:
   - .git
