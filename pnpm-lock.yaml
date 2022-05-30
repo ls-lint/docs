@@ -6,12 +6,10 @@ specifiers:
   termynal-master: link:termynal-master
   vuepress: ^1.9.2
 
-dependencies:
-  termynal-master: link:termynal-master
-
 devDependencies:
   '@ls-lint/ls-lint': 1.11.2
   '@vuepress/plugin-google-analytics': 1.9.7
+  termynal-master: link:termynal-master
   vuepress: 1.9.7
 
 packages:
