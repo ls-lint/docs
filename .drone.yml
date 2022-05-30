@@ -6,7 +6,7 @@ steps:
   - name: install
     image: node:18
     commands:
-      - curl -fsSL https://get.pnpm.io/install.sh | sh -
+      - npm install -g pnpm
       - make install
 
   - name: ls-lint
@@ -17,5 +17,5 @@ steps:
   - name: build
     image: node:18
     commands:
-      - curl -fsSL https://get.pnpm.io/install.sh | sh -
+      - npm install -g pnpm
       - make build
