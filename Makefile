@@ -1,8 +1,8 @@
 install:
-	yarn install
+	pnpm install
 
 ls-lint:
 	node_modules/.bin/ls-lint
 
 build:
-	yarn docs:build
+	pnpm docs:build

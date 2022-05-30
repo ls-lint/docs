@@ -10,18 +10,18 @@ Linux, MacOS & Windows support out of the box
 ### Linux
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v1.11.0/ls-lint-linux && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v1.11.2/ls-lint-linux && chmod +x ls-lint && ./ls-lint
 ```
 
 ### MacOS
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v1.11.0/ls-lint-darwin && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v1.11.2/ls-lint-darwin && chmod +x ls-lint && ./ls-lint
 ```
 
 ### Windows
 
-Download the .exe manually from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v1.11.0/ls-lint-windows.exe)
+Download the .exe manually from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v1.11.2/ls-lint-windows.exe)
 
 ```bash
 ls-lint-windows.exe
@@ -52,5 +52,5 @@ npx @ls-lint/ls-lint
 Based on [Google Distroless](https://github.com/GoogleContainerTools/distroless)
 
 ```bash
-docker run -t -v /path/to/project:/data lslintorg/ls-lint:1.11.0
+docker run --rm -v /path/to/project:/data lslintorg/ls-lint:1.11.2
 ```

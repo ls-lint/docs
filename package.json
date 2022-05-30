@@ -1,19 +1,19 @@
 {
   "name": "@ls-lint/docs",
-  "version": "1.11.0",
+  "version": "1.11.2",
   "description": "The ls-lint documentation",
   "repository": "https://github.com/ls-lint/docs",
   "license": "MIT",
-  "dependencies": {
-    "@ls-lint/ls-lint": "^1.11.0",
-    "termynal": "ines/termynal#master",
-    "vuepress": "^1.9.2"
-  },
   "scripts": {
     "docs:build": "vuepress build",
     "docs:dev": "vuepress dev"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.2"
+    "@ls-lint/ls-lint": "^1.11.2",
+    "@vuepress/plugin-google-analytics": "^1.9.2",
+    "vuepress": "^1.9.2"
+  },
+  "dependencies": {
+    "termynal-master": "link:termynal-master"
   }
 }
