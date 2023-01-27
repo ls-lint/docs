@@ -23,5 +23,5 @@ ls:
 ```
 
 <p align="center" id="footer">
-    MIT Licensed | Copyright &copy; 2020 - 2022 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.studio-ajot.de">Studio Ajot</a>
+    MIT Licensed | Copyright &copy; 2020 - 2023 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.studio-ajot.de">Studio Ajot</a>
 </p>
