@@ -104,7 +104,7 @@ module.exports = {
   ],
 
   themeConfig: {
-    logo: 'https://raw.githubusercontent.com/loeffel-io/ls-lint/master/ls-lint.png',
+    logo: 'https://raw.githubusercontent.com/loeffel-io/ls-lint/master/assets/logo/ls-lint.png',
     displayAllHeaders: false,
     sidebarDepth: 1,
 

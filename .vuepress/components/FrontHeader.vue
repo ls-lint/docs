@@ -1,6 +1,6 @@
 <template>
     <div id="front-header">
-        <img width="120" src="https://raw.githubusercontent.com/loeffel-io/ls-lint/master/ls-lint.png" alt="logo">
+        <img width="120" src="https://raw.githubusercontent.com/loeffel-io/ls-lint/master/assets/logo/ls-lint.png" alt="logo">
 
         <h1>ls-lint</h1>
         <h2>An extremely fast file and directory name linter</h2>
