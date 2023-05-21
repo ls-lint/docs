@@ -7,15 +7,15 @@
 
         <p>
             <a href="https://github.com/loeffel-io/ls-lint"><img alt="GitHub stars" src="https://img.shields.io/github/stars/loeffel-io/ls-lint?label=github%20stars"></a>
-            <a href="https://ci.loeffel.io/loeffel-io/ls-lint"><img src="https://ci.loeffel.io/api/badges/loeffel-io/ls-lint/status.svg" alt="build"></a>
-            <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/v/@ls-lint/ls-lint.svg?sanitize=true" alt="Version"></a>
+            <a href="https://github.com/loeffel-io/ls-lint/actions/workflows/bazel.yml"><img src="https://github.com/loeffel-io/ls-lint/actions/workflows/bazel.yml/badge.svg?branch=master" alt="build"></a>
+            <!-- <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/v/@ls-lint/ls-lint.svg?sanitize=true" alt="Version"></a> -->
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/dm/@ls-lint/ls-lint?label=npm%20downloads" alt="NPM Downloads"></a>
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/dt/@ls-lint/ls-lint?label=npm%20downloads%20total" alt="NPM Downloads"></a>
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/l/@ls-lint/ls-lint.svg?sanitize=true" alt="License"></a>
         </p>
 
         <p id="get-started">
-            <a id="get-started-button" href="/1.x/getting-started/introduction.html">Get Started &rarr;</a>
+            <a id="get-started-button" href="/2.0/getting-started/introduction.html">Get Started &rarr;</a>
         </p>
     </div>
 </template>

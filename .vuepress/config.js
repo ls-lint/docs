@@ -1,6 +1,6 @@
 module.exports = {
   title: 'ls-lint',
-  description: 'An extremely fast file and directory name linter - Bring some structure to your project directories',
+  description: 'An extremely fast file and directory name linter - Bring some structure to your project filesystem',
   base: '/',
 
   head: [
@@ -15,7 +15,7 @@ module.exports = {
       'meta',
       {
         property: 'og:description',
-        content: 'An extremely fast file and directory name linter - Bring some structure to your project directories',
+        content: 'An extremely fast file and directory name linter - Bring some structure to your project filesystem',
       },
     ],
     [
@@ -110,52 +110,23 @@ module.exports = {
 
     nav: [
       {
+        text: 'Version',
+        items: [
+          {text: '2.0 (Beta)', link: '/2.0/getting-started/introduction.html'},
+          {text: '1.x', link: '/1.x/getting-started/introduction.html'},
+        ],
+      },
+      {
         text: 'GitHub',
         link: 'https://github.com/loeffel-io/ls-lint',
       },
       {
         text: 'Legal',
-        link: 'https://ls-lint.org/1.x/legal/imprint.html',
+        link: 'https://ls-lint.org/2.0/legal/imprint.html',
       },
     ],
 
-    sidebar: {
-      '/': [
-        {
-          title: 'Prologue',
-          collapsable: false,
-          children: prefix('prologue', [
-            'changelog',
-            'contributions',
-          ]),
-        },
-        {
-          title: 'Getting Started',
-          collapsable: false,
-          children: prefix('getting-started', [
-            'introduction',
-            'installation',
-          ]),
-        },
-        {
-          title: 'Configuration',
-          collapsable: false,
-          children: prefix('configuration', [
-            'the-basics',
-            'the-rules',
-            'the-options',
-          ]),
-        },
-        {
-          title: 'Legal',
-          collapsable: false,
-          children: prefix('legal', [
-            'imprint',
-            'privacy',
-          ]),
-        },
-      ],
-    },
+    sidebar: sidebar(''),
   },
 
   plugins: [
@@ -168,6 +139,81 @@ module.exports = {
   ],
 };
 
-function prefix(prefix, children) {
-  return children.map(child => `/1.x/${prefix}/${child}`);
+function sidebar(location) {
+  return {
+    '/1.x/': [
+      {
+        title: 'Prologue',
+        collapsable: false,
+        children: prefix('1.x', 'prologue', [
+          'changelog',
+          'contributions',
+        ]),
+      },
+      {
+        title: 'Getting Started',
+        collapsable: false,
+        children: prefix('1.x', 'getting-started', [
+          'introduction',
+          'installation',
+        ]),
+      },
+      {
+        title: 'Configuration',
+        collapsable: false,
+        children: prefix('1.x', 'configuration', [
+          'the-basics',
+          'the-rules',
+          'the-options',
+        ]),
+      },
+      {
+        title: 'Legal',
+        collapsable: false,
+        children: prefix('1.x', 'legal', [
+          'imprint',
+          'privacy',
+        ]),
+      },
+    ],
+    '/2.0/': [
+      {
+        title: 'Prologue',
+        collapsable: false,
+        children: prefix('2.0', 'prologue', [
+          'changelog',
+          'contributions',
+        ]),
+      },
+      {
+        title: 'Getting Started',
+        collapsable: false,
+        children: prefix('2.0', 'getting-started', [
+          'introduction',
+          'installation',
+        ]),
+      },
+      {
+        title: 'Configuration',
+        collapsable: false,
+        children: prefix('2.0', 'configuration', [
+          'the-basics',
+          'the-rules',
+          'the-options',
+        ]),
+      },
+      {
+        title: 'Legal',
+        collapsable: false,
+        children: prefix('2.0', 'legal', [
+          'imprint',
+          'privacy',
+        ]),
+      },
+    ],
+  };
+}
+
+function prefix(version, prefix, children) {
+  return children.map(child => `/${version}/${prefix}/${child}`);
 }
