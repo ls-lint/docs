@@ -6,11 +6,14 @@
 
 ls-lint provides multiple CLI options out of the box:
 
-| Option | Description                                                                                                               |
-|--------|---------------------------------------------------------------------------------------------------------------------------| 
-| --debug | write debug informations to stdout (show linted or skiped files or directories)                                           |
-| --warn | treat lint errors as warnings; write output to stdout and return exit code 0 (facilitated the migration of your projects) |
+| Option    | Description                                                    |
+|-----------|----------------------------------------------------------------| 
+| --config  | ls-lint config file path                                       |
+| --workdir | change working directory before executing the given subcommand |
+| --debug   | write debug informations to stdout                             |
+| --warn    | write lint errors to stdout instead of stderr (exit 0)         |
+| --version | prints version information for ls-lint                         |
 
 :::tip Help
-`ls-lint --help` shows up all available options 
+`ls-lint --help` shows up all available options
 :::

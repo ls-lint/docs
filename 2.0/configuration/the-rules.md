@@ -34,7 +34,7 @@ ls:
 
 ### Using multiple regex rules
 
-Multiple regex rules are supported by the `|` operator
+Multiple regex rules are supported by the ` | ` operator
 
 <div style="color:#A2A2A2; font-size:12px;">
     .ls-lint.yml
@@ -45,6 +45,11 @@ ls:
   .js: regex:Schema(\.test)? | regex:Resolver(\.test)?
 ```
 
-:::warning Using the regex alternation
-In case of the `|` operator you can not use the [regex alternation](https://www.regular-expressions.info/alternation.html) in your regex patterns - Please just use the `|` operator for this cases like in the [example](#using-multiple-regex-rules) above
-:::
+### Using multiple regex rules with [regex alternation](https://www.regular-expressions.info/alternation.html)
+
+With regex alternation you can simplify the above example
+
+```yaml
+ls:
+  .js: regex:(Schema|Resolver)(\.test)?
+```

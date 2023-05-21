@@ -7,27 +7,27 @@ Linux, MacOS & Windows support out of the box
 
 ## cURL
 
-### Linux
+### Linux (amd64, arm64, s390x)
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v1.11.2/ls-lint-linux && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.0.0/ls-lint-linux-amd64 && chmod +x ls-lint && ./ls-lint
 ```
 
-### MacOS
+### MacOS (amd64, arm64)
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v1.11.2/ls-lint-darwin && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.0.0/ls-lint-darwin-arm64 && chmod +x ls-lint && ./ls-lint
 ```
 
-### Windows
+### Windows (amd64)
 
-Download the .exe manually from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v1.11.2/ls-lint-windows.exe)
+Download the .exe manually from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v2.0.0/ls-lint-windows-amd64.exe)
 
 ```bash
-ls-lint-windows.exe
+ls-lint-windows-amd64.exe
 ```
 
-## NPM [Package](https://www.npmjs.com/package/@ls-lint/ls-lint)
+## NPM
 
 ```bash
 npm install -g @ls-lint/ls-lint # global
@@ -47,10 +47,16 @@ node_modules/.bin/ls-lint # local - use backslashs for windows
 npx @ls-lint/ls-lint
 ```
 
-## Docker [Image](https://hub.docker.com/r/lslintorg/ls-lint)
+## Docker
 
-Based on [Google Distroless](https://github.com/GoogleContainerTools/distroless)
+Based on [Google Distroless](https://github.com/GoogleContainerTools/distroless). The Docker image for `v2.x` is blocked through [issue](https://github.com/bazelbuild/rules_docker/issues/1599) and will be supported soon.
 
 ```bash
 docker run --rm -v /path/to/project:/data lslintorg/ls-lint:1.11.2
+```
+
+## Build from source
+
+```bash
+bazel build //cmd/ls_lint:ls-lint
 ```

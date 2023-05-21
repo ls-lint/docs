@@ -1,7 +1,7 @@
 <FrontHeader/>
 <FrontFeatures/>
 
-<h3 style="margin-top:50px; padding-top:0; padding-bottom:10px; border-bottom: 2px solid rgba(0,0,0,0.05);">Bring some structure to your project directories</h3>
+<h3 style="margin-top:50px; padding-top:0; padding-bottom:10px; border-bottom: 2px solid rgba(0,0,0,0.05);">Bring some structure to your project filesystem</h3>
 
 Manage all your file and directory names in one single `.ls-lint.yml` file
 
@@ -23,5 +23,5 @@ ls:
 ```
 
 <p align="center" id="footer">
-    MIT Licensed | Copyright &copy; 2020 - 2022 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.behance.net/AnastasiaMarx">Anastasia Marx</a>
+    MIT Licensed | Copyright &copy; 2020 - 2023 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.behance.net/AnastasiaMarx">Anastasia Marx</a>
 </p>
