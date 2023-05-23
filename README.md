@@ -18,8 +18,8 @@ ls:
     .spec.ts: camelCase | PascalCase
     .mock.ts: camelCase
 
-  ignore:
-    - node_modules
+ignore:
+  - node_modules
 ```
 
 <p align="center" id="footer">
