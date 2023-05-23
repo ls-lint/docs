@@ -2,9 +2,9 @@
 
 [[toc]]
 
-## v2.0.0 (!) (beta)
+## v2.0.0 (!)
 
-Release Day: No ETA
+Release Day: 23 May 2023
 
 - **Breaking changes**: the multiple rules operator `|` must now include a leading and trailing whitespace (this should not affect many users because it was always documentated like that). With this the [regex alternation](https://www.regular-expressions.info/alternation.html) is now supported! You can read more about that here: [Using multiple regex rules](/2.0/configuration/the-rules.html#using-multiple-regex-rules).
 - Added `config`, `workdir` and `version` options
