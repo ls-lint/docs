@@ -112,7 +112,7 @@ module.exports = {
       {
         text: 'Version',
         items: [
-          {text: '2.0 (Beta)', link: '/2.0/getting-started/introduction.html'},
+          {text: '2.0', link: '/2.0/getting-started/introduction.html'},
           {text: '1.x', link: '/1.x/getting-started/introduction.html'},
         ],
       },
