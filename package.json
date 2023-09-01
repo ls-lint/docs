@@ -1,17 +1,17 @@
 {
   "name": "@ls-lint/docs",
-  "version": "1.11.2",
+  "version": "2.1.0",
   "description": "The ls-lint documentation",
   "repository": "https://github.com/ls-lint/docs",
   "license": "MIT",
   "scripts": {
-    "docs:build": "vuepress build",
-    "docs:dev": "vuepress dev"
+    "docs:build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build",
+    "docs:dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev"
   },
   "devDependencies": {
-    "@ls-lint/ls-lint": "^1.11.2",
-    "@vuepress/plugin-google-analytics": "^1.9.9",
-    "vuepress": "^1.9.9",
+    "@ls-lint/ls-lint": "^2.1.0-beta.0",
+    "@vuepress/plugin-google-analytics": "^1.9.10",
+    "vuepress": "^1.9.10",
     "termynal": "link:termynal"
   }
 }

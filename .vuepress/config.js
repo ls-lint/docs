@@ -112,6 +112,7 @@ module.exports = {
       {
         text: 'Version',
         items: [
+          {text: '2.1', link: '/2.1/getting-started/introduction.html'},
           {text: '2.0', link: '/2.0/getting-started/introduction.html'},
           {text: '1.x', link: '/1.x/getting-started/introduction.html'},
         ],
@@ -206,6 +207,41 @@ function sidebar(location) {
         title: 'Legal',
         collapsable: false,
         children: prefix('2.0', 'legal', [
+          'imprint',
+          'privacy',
+        ]),
+      },
+    ],
+    '/2.1/': [
+      {
+        title: 'Prologue',
+        collapsable: false,
+        children: prefix('2.1', 'prologue', [
+          'changelog',
+          'contributions',
+        ]),
+      },
+      {
+        title: 'Getting Started',
+        collapsable: false,
+        children: prefix('2.1', 'getting-started', [
+          'introduction',
+          'installation',
+        ]),
+      },
+      {
+        title: 'Configuration',
+        collapsable: false,
+        children: prefix('2.1', 'configuration', [
+          'the-basics',
+          'the-rules',
+          'the-options',
+        ]),
+      },
+      {
+        title: 'Legal',
+        collapsable: false,
+        children: prefix('2.1', 'legal', [
           'imprint',
           'privacy',
         ]),
