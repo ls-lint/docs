@@ -15,7 +15,7 @@
         </p>
 
         <p id="get-started">
-            <a id="get-started-button" href="/2.1/getting-started/introduction.html">Get Started &rarr;</a>
+            <a id="get-started-button" href="/2.2/getting-started/introduction.html">Get Started &rarr;</a>
         </p>
     </div>
 </template>

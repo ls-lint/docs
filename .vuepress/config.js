@@ -112,6 +112,7 @@ module.exports = {
       {
         text: 'Version',
         items: [
+          {text: '2.2 (beta)', link: '/2.2/getting-started/introduction.html'},
           {text: '2.1', link: '/2.1/getting-started/introduction.html'},
           {text: '2.0', link: '/2.0/getting-started/introduction.html'},
           {text: '1.x', link: '/1.x/getting-started/introduction.html'},
@@ -123,7 +124,7 @@ module.exports = {
       },
       {
         text: 'Legal',
-        link: 'https://ls-lint.org/2.0/legal/imprint.html',
+        link: 'https://ls-lint.org/2.2/legal/imprint.html',
       },
     ],
 
@@ -242,6 +243,41 @@ function sidebar(location) {
         title: 'Legal',
         collapsable: false,
         children: prefix('2.1', 'legal', [
+          'imprint',
+          'privacy',
+        ]),
+      },
+    ],
+    '/2.2/': [
+      {
+        title: 'Prologue',
+        collapsable: false,
+        children: prefix('2.2', 'prologue', [
+          'changelog',
+          'contributions',
+        ]),
+      },
+      {
+        title: 'Getting Started',
+        collapsable: false,
+        children: prefix('2.2', 'getting-started', [
+          'introduction',
+          'installation',
+        ]),
+      },
+      {
+        title: 'Configuration',
+        collapsable: false,
+        children: prefix('2.2', 'configuration', [
+          'the-basics',
+          'the-rules',
+          'the-options',
+        ]),
+      },
+      {
+        title: 'Legal',
+        collapsable: false,
+        children: prefix('2.2', 'legal', [
           'imprint',
           'privacy',
         ]),
