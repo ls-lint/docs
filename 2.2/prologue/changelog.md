@@ -2,7 +2,7 @@
 
 [[toc]]
 
-## v2.2.0-beta.0 (!)
+## v2.2.0 (!)
 
 Release Day: 13 Sep 2023
 
