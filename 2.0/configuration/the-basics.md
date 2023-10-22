@@ -46,7 +46,7 @@ ignore:
 Pretty easy, isn`t it? 
 
 :::tip Rules Rules Rules
-Don`t worry, there are many more rules to use: [All rules](/1.x/configuration/the-rules.md)
+Don`t worry, there are many more rules to use: [All rules](/2.0/configuration/the-rules.md)
 :::
 
 ## Linting directory names
