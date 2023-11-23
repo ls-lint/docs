@@ -9,7 +9,7 @@
     "docs:dev": "vuepress dev"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18.18.0 <19.0.0"
   },
   "devDependencies": {
     "@ls-lint/ls-lint": "^2.2.2",
