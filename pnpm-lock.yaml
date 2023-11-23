@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@ls-lint/ls-lint':
-    specifier: ^2.2.0-beta.0
-    version: 2.2.0-beta.0
+    specifier: ^2.2.2
+    version: 2.2.2
   '@vuepress/plugin-google-analytics':
     specifier: ^1.9.10
     version: 1.9.10
@@ -1250,8 +1250,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.13
     dev: true
 
-  /@ls-lint/ls-lint@2.2.0-beta.0:
-    resolution: {integrity: sha512-TczZMjUL8kRYStu8MdRoM9x2S5NvmN77qzFriddU7Jw6i2l3BrTu5Adq/lUqLv1HBZbL2HADNFwzdWK+3aoZNA==}
+  /@ls-lint/ls-lint@2.2.2:
+    resolution: {integrity: sha512-gdolCgwveSHZczfKtoVFkf+NZJjd7KRQs9QnLVEiMFEJLK4H7nBrZuC/ASl/AYMZvFmtCocRt3d5E0UF/34vCQ==}
     cpu: [x64, arm64, s390x]
     os: [darwin, linux, win32]
     hasBin: true
