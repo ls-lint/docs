@@ -64,6 +64,14 @@ Please see the [ls-lint github action repository](https://github.com/ls-lint/act
 - uses: ls-lint/action@v2.2.2
 ```
 
+## Homebrew (MacOS)
+
+ref: [Homebrew](https://formulae.brew.sh/formula/ls-lint)
+
+```bash
+brew install ls-lint
+```
+
 ## Build from source
 
 ```bash
