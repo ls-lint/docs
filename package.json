@@ -1,6 +1,6 @@
 {
   "name": "@ls-lint/docs",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "The ls-lint documentation",
   "repository": "https://github.com/ls-lint/docs",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": ">=18.18.0 <19.0.0"
   },
   "devDependencies": {
-    "@ls-lint/ls-lint": "^2.2.2",
+    "@ls-lint/ls-lint": "^2.2.3",
     "@vuepress/plugin-google-analytics": "^1.9.10",
     "vuepress": "^1.9.10",
     "termynal": "link:termynal"

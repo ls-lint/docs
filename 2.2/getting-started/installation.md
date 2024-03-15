@@ -10,18 +10,18 @@ Linux, MacOS & Windows support out of the box
 ### Linux (amd64, arm64, s390x)
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.2.2/ls-lint-linux-amd64 && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.2.3/ls-lint-linux-amd64 && chmod +x ls-lint && ./ls-lint
 ```
 
 ### MacOS (amd64, arm64)
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.2.2/ls-lint-darwin-arm64 && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.2.3/ls-lint-darwin-arm64 && chmod +x ls-lint && ./ls-lint
 ```
 
 ### Windows (amd64)
 
-Download the .exe manually from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v2.2.2/ls-lint-windows-amd64.exe)
+Download the .exe manually from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v2.2.3/ls-lint-windows-amd64.exe)
 
 ```bash
 ls-lint-windows-amd64.exe
@@ -61,7 +61,7 @@ Please see the [ls-lint github action repository](https://github.com/ls-lint/act
 
 ```yaml
 - uses: actions/checkout@v4
-- uses: ls-lint/action@v2.2.2
+- uses: ls-lint/action@v2.2.3
 ```
 
 ## Homebrew (MacOS)
