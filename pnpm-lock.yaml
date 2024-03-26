@@ -11,6 +11,9 @@ devDependencies:
   '@vuepress/plugin-google-analytics':
     specifier: ^1.9.10
     version: 1.9.10
+  '@vuepress/plugin-search':
+    specifier: ^1.9.10
+    version: 1.9.10
   termynal:
     specifier: link:termynal
     version: link:termynal
@@ -8811,6 +8814,7 @@ packages:
 
   /webpack-chain@4.12.1:
     resolution: {integrity: sha512-BCfKo2YkDe2ByqkEWe1Rw+zko4LsyS75LVr29C6xIrxAg9JHJ4pl8kaIZ396SUSNp6b4815dRZPSTAS8LlURRQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
       deepmerge: 1.5.2
       javascript-stringify: 1.6.0

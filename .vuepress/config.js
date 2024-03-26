@@ -106,9 +106,13 @@ module.exports = {
   themeConfig: {
     logo: 'https://raw.githubusercontent.com/loeffel-io/ls-lint/master/assets/logo/ls-lint.png',
     displayAllHeaders: false,
-    sidebarDepth: 1,
+    sidebarDepth: 2,
 
     nav: [
+      {
+        text: 'Blog',
+        link: '/blog/announcements/v2.3.0.html',
+      },
       {
         text: 'Version',
         items: [
@@ -136,6 +140,13 @@ module.exports = {
       '@vuepress/google-analytics',
       {
         'ga': 'UA-171718804-1', // UA-00000000-0
+      },
+    ],
+    [
+      '@vuepress/search',
+      {
+        searchMaxSuggestions: 8,
+        test: ['/2\.2/'],
       },
     ],
   ],
