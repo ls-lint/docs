@@ -23,5 +23,5 @@ ignore:
 ```
 
 <p align="center" id="footer">
-    MIT Licensed | Copyright &copy; 2020 - 2024 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.behance.net/AnastasiaMarx">Anastasia Marx</a>
+    MIT Licensed | Copyright &copy; 2020 - 2024 <a target="_blank" href="https://github.com/loeffel-io">Lucas Löffel</a> | Logo by <a target="_blank" href="https://www.studio-ajot.de/">Studio Ajot</a>
 </p>

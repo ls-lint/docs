@@ -318,7 +318,7 @@ function sidebar(location) {
                 children: prefix('2.3', 'configuration', [
                     'the-basics',
                     'the-rules',
-                    'the-options',
+                    'the-command-line-interface',
                 ]),
             },
             {

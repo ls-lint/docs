@@ -2,6 +2,12 @@
 
 [[toc]]
 
+## v2.3.0
+
+Release Day: xx July 2024
+
+Please see the blog post for more information: [ls-lint v2.3.0](/blog/announcements/v2.3.0)
+
 ## v2.2.0 (!)
 
 Release Day: 13 Sep 2023

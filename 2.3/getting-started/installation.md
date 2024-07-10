@@ -10,18 +10,19 @@ Linux, MacOS & Windows support out of the box
 ### Linux (amd64, arm64, s390x)
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.2.3/ls-lint-linux-amd64 && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0/ls-lint-linux-amd64 && chmod +x ls-lint && ./ls-lint
 ```
 
 ### MacOS (amd64, arm64)
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.2.3/ls-lint-darwin-arm64 && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0/ls-lint-darwin-arm64 && chmod +x ls-lint && ./ls-lint
 ```
 
 ### Windows (amd64)
 
-Download the .exe manually from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v2.2.3/ls-lint-windows-amd64.exe)
+Download the .exe manually
+from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0/ls-lint-windows-amd64.exe)
 
 ```bash
 ls-lint-windows-amd64.exe
@@ -49,7 +50,8 @@ npx @ls-lint/ls-lint
 
 ## Docker
 
-Based on [Google Distroless](https://github.com/GoogleContainerTools/distroless). The Docker image for `v2.x` is blocked through [issue](https://github.com/bazelbuild/rules_docker/issues/1599) and will be supported soon.
+Based on [Google Distroless](https://github.com/GoogleContainerTools/distroless). The Docker image for `v2.x` is blocked
+through [issue](https://github.com/bazelbuild/rules_docker/issues/1599) and will be supported soon.
 
 ```bash
 docker run --rm -v /path/to/project:/data lslintorg/ls-lint:1.11.2
@@ -61,7 +63,7 @@ Please see the [ls-lint github action repository](https://github.com/ls-lint/act
 
 ```yaml
 - uses: actions/checkout@v4
-- uses: ls-lint/action@v2.2.3
+- uses: ls-lint/action@v2.3.0
 ```
 
 ## Homebrew (MacOS)
@@ -72,8 +74,18 @@ ref: [Homebrew](https://formulae.brew.sh/formula/ls-lint)
 brew install ls-lint
 ```
 
-## Build from source
+## Bazel
+
+### Build from Source
+
+ls-lint uses [Bazel](https://bazel.build/) as primary build system.
 
 ```bash
 bazel build //cmd/ls_lint:ls-lint
+```
+
+### Run from Source
+
+```bash
+bazel run //cmd/ls_lint:ls-lint -- --config ${PWD}/.ls-lint.yml --workdir ${PWD}
 ```
