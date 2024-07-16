@@ -14,6 +14,7 @@
   "devDependencies": {
     "@ls-lint/ls-lint": "^2.2.3",
     "@vuepress/plugin-google-analytics": "^1.9.10",
+    "@vuepress/plugin-search": "^1.9.10",
     "vuepress": "^1.9.10",
     "termynal": "link:termynal"
   }

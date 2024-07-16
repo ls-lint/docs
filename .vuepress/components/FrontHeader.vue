@@ -10,12 +10,12 @@
             <a href="https://github.com/loeffel-io/ls-lint/actions/workflows/bazel.yml"><img src="https://github.com/loeffel-io/ls-lint/actions/workflows/bazel.yml/badge.svg?branch=master" alt="build"></a>
             <!-- <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/v/@ls-lint/ls-lint.svg?sanitize=true" alt="Version"></a> -->
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/dy/@ls-lint/ls-lint?label=npm%20downloads" alt="NPM Downloads"></a>
-            <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://badgen.net/static/npm%20downloads%20total/4.7M+/green" alt="NPM Downloads"></a>
+            <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://badgen.net/static/npm%20downloads%20total/5M+/green" alt="NPM Downloads"></a>
             <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"><img src="https://img.shields.io/npm/l/@ls-lint/ls-lint.svg?sanitize=true" alt="License"></a>
         </p>
 
         <p id="get-started">
-            <a id="get-started-button" href="/2.2/getting-started/introduction.html">Get Started &rarr;</a>
+            <a id="get-started-button" href="/2.3/getting-started/introduction.html">Get Started &rarr;</a>
         </p>
     </div>
 </template>
