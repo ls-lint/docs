@@ -34,7 +34,7 @@ You can also use wildcard extensions to simplify your configuration: [Wildcard e
 
 ## Global configuration
 
-A global configuration for your project is optional but could be the best solution. Imagine you want to define that **all** of your `.js`, `.ts` and `.d.ts` project files must be named in the `kebab-case` style but you want to ignore your `.git` and `node_modules` directories - this can be solved like this:
+A global configuration for your project is optional, but could be the best solution. Imagine you want to define that **all** of your `.js`, `.ts` and `.d.ts` project files must be named in the `kebab-case` style, but you want to ignore your `.git` and `node_modules` directories - this can be solved like this:
 
 <div style="color:#A2A2A2; font-size:12px;">
     .ls-lint.yml
@@ -64,7 +64,7 @@ You also can define rules for directories by the `.dir` definition
 ```yaml
 ls:
   packages/src:
-    .dir: kebab-case # applies for the current directory and all their subdirectories
+    .dir: kebab-case # applies to the current directory and all their subdirectories
     .js: kebab-case
 ```
 
@@ -74,14 +74,14 @@ You can use wildcard extensions for files in your **ls** configuration. With thi
 
 ```yaml
 ls:
-  .*: snake_case
-  .js: kebab-case
-  .*.js: kebab-case
+  .*: snake_case # match all extensions but .js and .*.js files
+  .js: kebab-case # match all .js files
+  .*.js: kebab-case # match all .*.js files (e.g. .test.js, .service.js)
 ```
 
 ## Using multiple rules
 
-Sometimes you need to accept multiple rules for a single file extension - This can be easily solved by the `|` operator:
+Sometimes, you need to accept multiple rules for a single file extension - This can be easily solved by the `|` operator:
 
 <div style="color:#A2A2A2; font-size:12px;">
     .ls-lint.yml
@@ -94,7 +94,7 @@ ls:
 
 ## Different rules for different directories
 
-Pretty often there are different rules for different directories or you just want to define rules only for some specific directories:
+Pretty often, there are different rules for different directories or you just want to define rules only for some specific directories:
 
 <div style="color:#A2A2A2; font-size:12px;">
     .ls-lint.yml
@@ -113,7 +113,7 @@ ls:
 
 :::warning Keep in mind
 Directory configurations like `models` or `src/templates` will override **all** rules for the current directory and all their subdirectories.
-Please see the [Using directory patterns](#using-directory-patterns) section to configure subdirectories.
+Please see the [Using directory patterns](#using-directory-patterns) section to configure wildcard subdirectories.
 :::
 
 ## Using directory patterns
@@ -143,11 +143,11 @@ The glob pattern also provides the ability to override subdirectories:
 
 ```yaml
 ls:
-  packages/*:
+  packages/*: # applies to packages/** 
     .dir: kebab-case
     .js: kebab-case
 
-    '*':
+    '*': # applies to packages/*/**
       .dir: snake_case
       .js: kebab-case
 ```
@@ -173,11 +173,11 @@ The alternative pattern also provides the ability to selectively override subdir
 
 ```yaml
 ls:
-  packages/*:
+  packages/*: # applies to packages/**
     .dir: kebab-case
     .js: kebab-case
 
-    '{src,tests}':
+    '{src,tests}': # applies to packages/*/src, packages/*/src/**, packages/*/tests and packages/*/tests/**
       .dir: snake_case
       .js: kebab-case
 ```

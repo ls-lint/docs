@@ -7,7 +7,7 @@
 
     <div>
       <h3 style="padding-bottom:10px; border-bottom: 2px solid rgba(0,0,0,0.05);">Platform Support</h3>
-      Support for Windows, MacOS and Linux + NPM + GitHub Action + Homebrew + Docker
+      Support for Windows, macOS and Linux + NPM + GitHub Action + Homebrew + Docker
     </div>
 
     <div>

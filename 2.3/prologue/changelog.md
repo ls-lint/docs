@@ -4,7 +4,7 @@
 
 ## v2.3.0
 
-Release Day: xx July 2024
+Release Day: July 2024
 
 Please see the blog post for more information: [ls-lint v2.3.0](/blog/announcements/v2.3.0)
 

@@ -116,7 +116,7 @@ module.exports = {
             {
                 text: 'Version',
                 items: [
-                    {text: '2.3', link: '/2.3/getting-started/introduction.html'},
+                    {text: '2.3 (beta)', link: '/2.3/getting-started/introduction.html'},
                     {text: '2.2', link: '/2.2/getting-started/introduction.html'},
                     {text: '2.1', link: '/2.1/getting-started/introduction.html'},
                     {text: '2.0', link: '/2.0/getting-started/introduction.html'},

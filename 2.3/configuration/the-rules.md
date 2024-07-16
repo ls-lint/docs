@@ -49,7 +49,7 @@ ls:
 
 ### Using multiple regex rules with [regex alternation](https://www.regular-expressions.info/alternation.html)
 
-With regex alternation you can simplify the above example
+With regex alternation, you can simplify the above example
 
 ```yaml
 ls:
@@ -58,9 +58,9 @@ ls:
 
 ## Exists
 
-Allow or disallow _`N`_ or _`N-M`_ files for a given file extension or wildcard extension.
+Allow or disallow _`N`_ or _`N-M`_ files for a given extension. The exists rule only applies to the directory itself, not to subdirectories.
 
-Imagine you want to restrict all component subdirectories to only having one `.ts` and one `.test.ts` file:
+Imagine you want to restrict all component directories to only having one `.ts` and one `.test.ts` file:
 
 ```yaml
 ls:
@@ -76,13 +76,16 @@ ls:
 ```yaml
 ls:
   components/{auth,account}:
-    dir: exists # same as exists:1 (only 0 or 1 allowed for directories)
+    dir: exists:1
     .*: ...
+
+    '*':
+      .dir: exists:0 # no subdirectories allowed
 ```
 
 and ranges:
 
 ```yaml
 ls:
-  .foo: exists:1-10
+  .js: exists:1-10
 ```
