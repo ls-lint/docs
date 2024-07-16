@@ -109,10 +109,10 @@ module.exports = {
         sidebarDepth: 2,
 
         nav: [
-            {
-                text: 'Blog',
-                link: '/blog/announcements/v2.3.0.html',
-            },
+            // {
+            //     text: 'Blog',
+            //     link: '/blog/announcements/v2.3.0.html',
+            // },
             {
                 text: 'Version',
                 items: [
