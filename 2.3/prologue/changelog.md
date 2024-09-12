@@ -2,11 +2,12 @@
 
 [[toc]]
 
-## v2.3.0
+## v2.3.0 (!)
 
 Release Day: July 2024
 
-Please see the blog post for more information: [ls-lint v2.3.0](/blog/announcements/v2.3.0)
+Please see the blog post for more information: [ls-lint v2.3.0](/blog/announcements/v2.3.0)  
+Breaking change: removed pointcase rule
 
 ## v2.2.0 (!)
 

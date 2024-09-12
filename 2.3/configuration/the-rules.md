@@ -16,7 +16,6 @@ ls-lint provides multiple rules out of the box:
 | snakecase          | snake_case           | String must be snake_case<br>Only lowercase letters, digits and `_` allowed            | 
 | screamingsnakecase | SCREAMING_SNAKE_CASE | String must be snake_case<br>Only uppercase letters, digits and `_` allowed            | 
 | kebabcase          | kebab-case           | String must be kebab-case<br>Only lowercase letters, digits and `-` allowed            |
-| pointcase          | point.case           | String must be "point case"<br>Only lowercase letters, digits and `.` allowed          |
 
 ## Regex
 
