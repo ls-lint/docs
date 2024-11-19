@@ -7,15 +7,16 @@
 ls-lint provides multiple rules out of the box:
 
 | Rule               | Alias                | Description                                                                            |
-|--------------------|----------------------|----------------------------------------------------------------------------------------| 
-| [regex](#regex)    | -                    | Matches regex pattern: ^{pattern}$                                                     |
-| [exists](#exists)  | -                    | Allow or disallow the existence of _`N`_ or _`N-M`_ files. Also works for directories. |
+| ------------------ | -------------------- | -------------------------------------------------------------------------------------- |
 | lowercase          | -                    | Every letter must be lowercase<br>Ignore non letters                                   |
 | camelcase          | camelCase            | String must be camelCase<br>Only letters and digits allowed                            |
 | pascalcase         | PascalCase           | String must be Pascalcase<br>Only letters and digits allowed                           |
-| snakecase          | snake_case           | String must be snake_case<br>Only lowercase letters, digits and `_` allowed            | 
-| screamingsnakecase | SCREAMING_SNAKE_CASE | String must be snake_case<br>Only uppercase letters, digits and `_` allowed            | 
+| snakecase          | snake_case           | String must be snake*case<br>Only lowercase letters, digits and `*` allowed            |
+| screamingsnakecase | SCREAMING_SNAKE_CASE | String must be snake*case<br>Only uppercase letters, digits and `*` allowed            |
 | kebabcase          | kebab-case           | String must be kebab-case<br>Only lowercase letters, digits and `-` allowed            |
+| [regex](#regex)    | -                    | Matches regex pattern: ^{pattern}$                                                     |
+| not_regex          | -                    | Does not match regex pattern: ^{pattern}$                                              |
+| [exists](#exists)  | -                    | Allow or disallow the existence of _`N`_ or _`N-M`_ files. Also works for directories. |
 
 ## Regex
 
@@ -35,7 +36,7 @@ ls:
 
 ### Using multiple regex rules
 
-Multiple regex rules are supported by the ` | ` operator
+Multiple regex rules are supported by the `|` operator
 
 <div style="color:#A2A2A2; font-size:12px;">
     .ls-lint.yml
@@ -78,7 +79,7 @@ ls:
     dir: exists:1
     .*: ...
 
-    '*':
+    "*":
       .dir: exists:0 # no subdirectories allowed
 ```
 

@@ -10,19 +10,19 @@ Linux, macOS & Windows support out of the box
 ### Linux (amd64, arm64, s390x, ppc64le)
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0-beta.1/ls-lint-linux-amd64 && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0-beta.2/ls-lint-linux-amd64 && chmod +x ls-lint && ./ls-lint
 ```
 
 ### macOS (amd64, arm64)
 
 ```bash
-curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0-beta.1/ls-lint-darwin-arm64 && chmod +x ls-lint && ./ls-lint
+curl -sL -o ls-lint https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0-beta.2/ls-lint-darwin-arm64 && chmod +x ls-lint && ./ls-lint
 ```
 
 ### Windows (amd64)
 
 Download the .exe manually
-from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0-beta.1/ls-lint-windows-amd64.exe)
+from [GitHub](https://github.com/loeffel-io/ls-lint/releases/download/v2.3.0-beta.2/ls-lint-windows-amd64.exe)
 
 ```bash
 ls-lint-windows-amd64.exe
@@ -31,8 +31,8 @@ ls-lint-windows-amd64.exe
 ## NPM
 
 ```bash
-npm install -g @ls-lint/ls-lint@v2.3.0-beta.1 # global
-npm install @ls-lint/ls-lint@v2.3.0-beta.1 # local
+npm install -g @ls-lint/ls-lint@v2.3.0-beta.2 # global
+npm install @ls-lint/ls-lint@v2.3.0-beta.2 # local
 ```
 
 ### Run
@@ -45,7 +45,7 @@ node_modules/.bin/ls-lint # local - use backslashs for windows
 ### NPX
 
 ```bash
-npx @ls-lint/ls-lint@v2.3.0-beta.1
+npx @ls-lint/ls-lint@v2.3.0-beta.2
 ```
 
 ## Docker
@@ -63,7 +63,7 @@ Please see the [ls-lint GitHub Action repository](https://github.com/ls-lint/act
 
 ```yaml
 - uses: actions/checkout@v4
-- uses: ls-lint/action@v2.3.0-beta.1
+- uses: ls-lint/action@v2.3.0-beta.2
 ```
 
 ## Homebrew (macOS, Linux)
