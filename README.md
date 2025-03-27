@@ -6,7 +6,7 @@
 Manage all your file and directory names in one single `.ls-lint.yml` file
 
 <div style="color:#A2A2A2; font-size:12px;">
-    Example of the Vue.js 3 configuration
+    .ls-lint.yaml
 </div>
 
 ```yaml
