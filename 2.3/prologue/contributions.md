@@ -19,3 +19,6 @@ Thank you for your contributions!
 - [wiget](https://github.com/wiget)
 - [wburningham](https://github.com/wburningham)
 - [caiofbpa](https://github.com/caiofbpa)
+- [alexandear](https://github.com/alexandear)
+- [ccoVeille](https://github.com/ccoVeille)
+- [RobinIrmer](https://github.com/RobinIrmer)

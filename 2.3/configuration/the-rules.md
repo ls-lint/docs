@@ -15,7 +15,6 @@ ls-lint provides multiple rules out of the box:
 | screamingsnakecase | SCREAMING_SNAKE_CASE | String must be snake*case<br>Only uppercase letters, digits and `*` allowed            |
 | kebabcase          | kebab-case           | String must be kebab-case<br>Only lowercase letters, digits and `-` allowed            |
 | [regex](#regex)    | -                    | Matches regex pattern: ^{pattern}$                                                     |
-| not_regex          | -                    | Does not match regex pattern: ^{pattern}$                                              |
 | [exists](#exists)  | -                    | Allow or disallow the existence of _`N`_ or _`N-M`_ files. Also works for directories. |
 
 ## Regex
@@ -32,6 +31,19 @@ the `^{pattern}$` pattern
 ```yaml
 ls:
   .js: regex:[a-z0-9]+ # the final regex pattern will be ^[a-z0-9]+$
+```
+
+### Negation
+
+You can negate the regex rule by adding a `!` prefix
+
+<div style="color:#A2A2A2; font-size:12px; margin-top:12px;">
+    .ls-lint.yml
+</div>
+
+```yaml
+ls:
+  .js: regex:![0-9]+ # the final regex pattern will be ^[0-9]+$
 ```
 
 ### Using multiple regex rules
@@ -54,6 +66,37 @@ With regex alternation, you can simplify the above example
 ```yaml
 ls:
   .js: regex:(Schema|Resolver)(\_test)?
+```
+
+### Directory substitutions
+
+The regex rule exposes the directory tree as substitution variables that can be referenced in the regex pattern.
+For instance, you can use `${0}` to substitute the parent directory, `${1}` for the parent parent, and so on.
+
+<div style="color:#A2A2A2; font-size:12px; margin-top:12px;">
+    Directory tree
+</div>
+
+```text
+components
+└── button
+    ├── button.ts
+    └── tests
+        └── button.test.ts
+```
+
+<div style="color:#A2A2A2; font-size:12px; margin-top:12px;">
+    .ls-lint.yml
+</div>
+
+```yaml
+ls:
+  components/*: # e.g.: components/button
+    .ts: regex:${0} # e.g.: components/button/button.ts
+    .*.scss: regex:${0} # e.g.: components/button/button.module.scss
+
+    tests:
+      .test.ts: regex:${1} # e.g.: components/button/tests/button.test.ts
 ```
 
 ## Exists

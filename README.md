@@ -18,6 +18,12 @@ ls:
     .spec.ts: camelCase | PascalCase
     .mock.ts: camelCase
 
+  components/*:
+    .ts: regex:${0}
+    tests:
+      .*: exists:0
+      .test.ts: regex:${1}
+
 ignore:
   - node_modules
 ```

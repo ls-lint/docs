@@ -16,4 +16,3 @@ ls-lint is an extremely fast file and directory name linter which provides a sim
 ## Demo
 
 <DemoTermynal/>
-
