@@ -78,10 +78,11 @@ brew install ls-lint
 
 ## Bazel
 
+Supports macOS (arm64), Linux (amd64) and Windows (amd64)
+
 ### Build from Source
 
 ls-lint uses [Bazel](https://bazel.build/) as primary build system.
-Supports macOS (arm64), Linux (amd64) and Windows (amd64)
 
 ```bash
 bazel build //cmd/ls_lint:ls-lint
