@@ -13,7 +13,7 @@ ls-lint [options] [file|dir]*
 ls-lint provides multiple CLI options out of the box:
 
 | Option                                | Description                                                    |
-|---------------------------------------|----------------------------------------------------------------| 
+| ------------------------------------- | -------------------------------------------------------------- |
 | [--config](#extending-configurations) | ls-lint config file path(s)                                    |
 | --workdir                             | change working directory before executing the given subcommand |
 | --error-output-format                 | use a specific error output format (text, json)                |

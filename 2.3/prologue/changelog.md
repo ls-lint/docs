@@ -94,3 +94,4 @@ Release Day: 23 May 2023
 - Migrated the project to GitHub Actions
 - Updated all third party dependencies
 - Updated [Go](https://go.dev) to 1.20.4
+

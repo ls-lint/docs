@@ -11,11 +11,9 @@ Your ls-lint configuration should be located in a `.ls-lint.yml` file in your pr
 </div>
 
 ```yaml
-ls: 
-    ... 
+ls: ...
 
-ignore: 
-    ...
+ignore: ...
 ```
 
 `ls` defines the structure of your project directories with all their rules for your extensions, sub-extensions and directories while `ignore` can ignore some of these files and directories completely
@@ -42,19 +40,19 @@ A global configuration for your project is optional, but could be the best solut
 
 ```yaml
 ls:
-    .js: kebab-case
-    .ts: kebab-case
-    .d.ts: kebab-case
+  .js: kebab-case
+  .ts: kebab-case
+  .d.ts: kebab-case
 
-ignore: 
-    - .git 
-    - node_modules
+ignore:
+  - .git
+  - node_modules
 ```
 
-Pretty easy, isn`t it? 
+Pretty easy, isn`t it?
 
 :::tip Rules Rules Rules
-Don`t worry, there are many more rules to use: [All rules](/2.2/configuration/the-rules.md)
+Don`t worry, there are many more rules to use: [All rules](/2.3/configuration/the-rules.md)
 :::
 
 ## Linting directory names
@@ -89,7 +87,7 @@ Sometimes, you need to accept multiple rules for a single file extension - This 
 
 ```yaml
 ls:
-    .js: kebab-case | camelCase | PascalCase
+  .js: kebab-case | camelCase | PascalCase
 ```
 
 ## Different rules for different directories
@@ -102,13 +100,13 @@ Pretty often, there are different rules for different directories or you just wa
 
 ```yaml
 ls:
-    .js: kebab-case
+  .js: kebab-case
 
-    models:
-        .js: PascalCase
+  models:
+    .js: PascalCase
 
-    src/templates:
-        .js: snake_case
+  src/templates:
+    .js: snake_case
 ```
 
 :::warning Keep in mind
@@ -128,26 +126,26 @@ The glob pattern `*` or `**` can be used for all of your **ls** and **ignore** d
 
 ```yaml
 ls:
-    packages/*/src: # matches any sequence of non-path-separators
-        .js: kebab-case
+  packages/*/src: # matches any sequence of non-path-separators
+    .js: kebab-case
 
-    packages/**/templates: # matches any sequence of characters, including path separators
-        .html: kebab-case
+  packages/**/templates: # matches any sequence of characters, including path separators
+    .html: kebab-case
 
 ignore:
-    - '**/*.png'
-    - bazel-*
+  - "**/*.png"
+  - bazel-*
 ```
 
 The glob pattern also provides the ability to override subdirectories:
 
 ```yaml
 ls:
-  packages/*: # applies to packages/** 
+  packages/*: # applies to packages/**
     .dir: kebab-case
     .js: kebab-case
 
-    '*': # applies to packages/*/**
+    "*": # applies to packages/*/**
       .dir: snake_case
       .js: kebab-case
 ```
@@ -162,11 +160,11 @@ The alternative pattern can be used for all of your **ls** and **ignore** direct
 
 ```yaml
 ls:
-    packages/*/{src,tests}: # matches a sequence of characters if one of the comma-separated alternatives matches
-        .js: kebab-case
+  packages/*/{src,tests}: # matches a sequence of characters if one of the comma-separated alternatives matches
+    .js: kebab-case
 
 ignore:
-    - '**/{a,b}/*.js'
+  - "**/{a,b}/*.js"
 ```
 
 The alternative pattern also provides the ability to selectively override subdirectories:
@@ -177,7 +175,7 @@ ls:
     .dir: kebab-case
     .js: kebab-case
 
-    '{src,tests}': # applies to packages/*/src, packages/*/src/**, packages/*/tests and packages/*/tests/**
+    "{src,tests}": # applies to packages/*/src, packages/*/src/**, packages/*/tests and packages/*/tests/**
       .dir: snake_case
       .js: kebab-case
 ```

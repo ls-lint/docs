@@ -4,10 +4,10 @@
 
 ## Verantwortlicher i.S.d. § 5 Abs. 1 TMG
 
-twys Software GmbH   
+twys Software GmbH  
 Käthe-Niederkirchner-Str. 30  
-10407 Berlin    
-Germany   
+10407 Berlin  
+Germany
 
 **Geschäftsführer:** Alexander Schneider und Lucas Löffel
 (Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV)
@@ -15,17 +15,17 @@ Germany
 ## Kontakt
 
 E-Mail: info@twys.io  
-Telefon: 030-54906997  
+Telefon: 030-54906997
 
 ## Sitz, Registereintrag:
 
 Sitz: Berlin  
 Eintragung im Handelsregister des Amtsgerichts Berlin  
-Registernummer: HRB 202476 B  
+Registernummer: HRB 202476 B
 
 ## Umsatzsteuer:
 
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE322712492  
+Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE322712492
 
 ## Streitschlichtung
 
@@ -53,6 +53,3 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 ## Verweise
 
 Logo: [Anastasia Marx](https://www.behance.net/AnastasiaMarx)
-
-
-
