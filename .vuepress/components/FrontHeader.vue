@@ -29,7 +29,7 @@
       /></a>
       <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"
         ><img
-          src="https://badgen.net/static/npm%20downloads%20total/7M+/green"
+          src="https://badgen.net/static/npm%20downloads%20total/8M+/green"
           alt="NPM Downloads"
       /></a>
       <a href="https://www.npmjs.com/package/@ls-lint/ls-lint"

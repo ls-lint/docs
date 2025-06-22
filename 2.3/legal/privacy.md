@@ -12,7 +12,7 @@ Stand: 15. August 2019
 
 twys Software GmbH
 Schreinerstraße 31  
-10247 Berlin  
+10247 Berlin
 
 **Vertretungsberechtigte Personen:** Alexander Schneider und Lucas Löffel
 
@@ -27,25 +27,18 @@ Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwec
 ### Arten der verarbeiteten Daten
 
 - Bestandsdaten (z.B. Namen, Adressen).
-  
 - Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).
-  
 - Kontaktdaten (z.B. E-Mail, Telefonnummern).
-  
 - Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
-  
 - Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).
-  
 - Standortdaten (Daten, die den Standort des Endgeräts eines Endnutzers angeben).
-  
+
 ### Kategorien betroffener Personen
 
 - Interessenten.
-  
 - Kommunikationspartner.
-  
 - Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
-  
+
 ### Zwecke der Verarbeitung
 
 - Besuchsaktionsauswertung.
@@ -275,3 +268,4 @@ Wir nutzen Hotjar, um die Bedürfnisse unserer Nutzer besser zu verstehen und da
 Du kannst der Speicherung eines Nutzerprofils und von Informationen über Deinen Besuch auf unserer Website durch Hotjar sowie dem Setzen von Hotjar Tracking Cookies auf anderen Websites über diesen Link widersprechen: https://www.hotjar.com/legal/compliance/opt-out
 
 [Erstellt mit Datenschutz-Generator.de von Dr. jur. Thomas Schwenke](https://datenschutz-generator.de/?l=de)
+
