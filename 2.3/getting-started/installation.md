@@ -32,7 +32,7 @@ ls-lint-windows-amd64.exe
 
 ```bash
 npm install -g @ls-lint/ls-lint@v2.3.1 # global
-npm install @ls-lint/ls-lint@v2.3.1 # local
+npm install --save-dev @ls-lint/ls-lint@v2.3.1 # local
 ```
 
 ### Run
