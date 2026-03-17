@@ -119,7 +119,7 @@ ls:
 ```yaml
 ls:
   components/{auth,account}:
-    dir: exists:1
+    .dir: exists:1
     .*: ...
 
     "*":
