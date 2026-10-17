@@ -22,3 +22,6 @@ Thank you for your contributions!
 - [alexandear](https://github.com/alexandear)
 - [ccoVeille](https://github.com/ccoVeille)
 - [RobinIrmer](https://github.com/RobinIrmer)
+- [Chris Bandy](https://github.com/cbandy)
+- [thiagowfx](https://github.com/thiagowfx)
+- [Puneet Dixit](https://github.com/puneetdixit200)
