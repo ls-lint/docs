@@ -112,12 +112,12 @@ module.exports = {
 
     nav: [
       {
-        text: "Blog",
-        link: "/blog/announcements/v2.3.0.html",
-      },
-      {
         text: "Version",
         items: [
+          {
+            text: "2.4 (beta)",
+            link: "/2.4/getting-started/introduction.html",
+          },
           { text: "2.3", link: "/2.3/getting-started/introduction.html" },
           { text: "2.2", link: "/2.2/getting-started/introduction.html" },
           { text: "2.1", link: "/2.1/getting-started/introduction.html" },
@@ -126,12 +126,16 @@ module.exports = {
         ],
       },
       {
+        text: "Blog",
+        link: "/blog/blog.html",
+      },
+      {
         text: "GitHub",
         link: "https://github.com/loeffel-io/ls-lint",
       },
       {
         text: "Legal",
-        link: "https://ls-lint.org/2.3/legal/imprint.html",
+        link: "/2.4/legal/imprint.html",
       },
     ],
 
@@ -149,7 +153,7 @@ module.exports = {
       "@vuepress/search",
       {
         searchMaxSuggestions: 8,
-        test: ["/2.3/"],
+        test: ["/2.4/"],
       },
     ],
   ],
@@ -300,6 +304,36 @@ function sidebar(location) {
         title: "Legal",
         collapsable: false,
         children: prefix("2.3", "legal", ["imprint", "privacy"]),
+      },
+    ],
+    "/2.4/": [
+      {
+        title: "Prologue",
+        collapsable: false,
+        children: prefix("2.4", "prologue", ["changelog", "contributions"]),
+      },
+      {
+        title: "Getting Started",
+        collapsable: false,
+        children: prefix("2.4", "getting-started", [
+          "introduction",
+          "installation",
+        ]),
+      },
+      {
+        title: "Configuration",
+        collapsable: false,
+        children: prefix("2.4", "configuration", [
+          "the-basics",
+          "the-rules",
+          "the-command-line-interface",
+          "the-mcp-server",
+        ]),
+      },
+      {
+        title: "Legal",
+        collapsable: false,
+        children: prefix("2.4", "legal", ["imprint", "privacy"]),
       },
     ],
   };

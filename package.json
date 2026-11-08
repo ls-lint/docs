@@ -8,9 +8,6 @@
     "docs:build": "vuepress build",
     "docs:dev": "vuepress dev"
   },
-  "engines": {
-    "node": ">=18.18.0 <19.0.0"
-  },
   "devDependencies": {
     "@ls-lint/ls-lint": "^2.2.3",
     "@vuepress/plugin-google-analytics": "^1.9.10",
