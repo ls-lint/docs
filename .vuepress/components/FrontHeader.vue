@@ -8,6 +8,9 @@
 
     <h1>ls-lint</h1>
     <h2>An extremely fast file and directory name linter</h2>
+    <h3>
+      Define your project structure as code - for your team and your AI agents
+    </h3>
 
     <p>
       <a href="https://github.com/loeffel-io/ls-lint"

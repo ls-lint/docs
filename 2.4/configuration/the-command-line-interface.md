@@ -1,4 +1,4 @@
-# The command line interface (CLI)
+# The Command Line Interface (CLI)
 
 [[toc]]
 

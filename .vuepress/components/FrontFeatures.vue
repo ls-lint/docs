@@ -22,7 +22,7 @@
       >
         Platform Support
       </h3>
-      Support for Windows, MacOS and Linux +
+      Support for Windows, macOS and Linux +
       <a href="https://www.npmjs.com/package/@ls-lint/ls-lint" target="_blank"
         >NPM Package</a
       >
@@ -54,4 +54,3 @@
 <script>
 export default {};
 </script>
-
