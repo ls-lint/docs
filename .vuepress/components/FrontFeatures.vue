@@ -10,7 +10,8 @@
         Simplicity First
       </h3>
       Minimal setup with simple rules managed in one or multiple .ls-lint.yml
-      files
+      files.
+      <a href="/2.4/getting-started/installation.html">Runs everywhere</a>
     </div>
 
     <div>
@@ -20,21 +21,10 @@
           border-bottom: 2px solid rgba(0, 0, 0, 0.05);
         "
       >
-        Platform Support
+        Agent Ready
       </h3>
-      Support for Windows, macOS and Linux +
-      <a href="https://www.npmjs.com/package/@ls-lint/ls-lint" target="_blank"
-        >NPM Package</a
-      >
-      +
-      <a href="https://github.com/ls-lint/action" target="_blank"
-        >GitHub Action</a
-      >
-      +
-      <a href="https://formulae.brew.sh/formula/ls-lint" target="_blank"
-        >Homebrew</a
-      >
-      + Docker
+      Optional roles and an MCP server tell your AI agents where new files and
+      directories belong
     </div>
 
     <div>
@@ -44,9 +34,10 @@
           border-bottom: 2px solid rgba(0, 0, 0, 0.05);
         "
       >
-        Extremely fast
+        Extremely Fast
       </h3>
-      Lints thousands of files and directories in milliseconds
+      Written in Go with almost zero dependencies - lints thousands of files and
+      directories in milliseconds
     </div>
   </div>
 </template>
